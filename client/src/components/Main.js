@@ -118,19 +118,19 @@ function Main() {
   }, []);
 
   return (
-    // <div>
-    //   <Bar options={votingChartOptions} data={votingChartData} />
-    //   <Bar options={votingChartOptions} data={votingChartData} />
-    // </div>
-
-    <div className="double-mango">
-      <div className="small-chart-area">
-        <Bar options={votingChartOptions} data={votingChartData} />
-      </div>
-      <div className="small-chart-area">
-        <Bar options={votingChartOptions} data={votingChartData} />
-      </div>
+    <div>
+      <Bar options={votingChartOptions} data={votingChartData} />
+      <Bar options={votingChartOptions} data={votingChartData} />
     </div>
+
+    // <div className="double-mango">
+    //   <div className="small-chart-area">
+    //     <Bar options={votingChartOptions} data={votingChartData} />
+    //   </div>
+    //   <div className="small-chart-area">
+    //     <Bar options={votingChartOptions} data={votingChartData} />
+    //   </div>
+    // </div>
   );
 }
 
